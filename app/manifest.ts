@@ -1,7 +1,7 @@
 export default function manifest() {
   return {
-    name: "Alex Mourad Portfolio",
-    short_name: "AM",
+    name: "PeterMedhat Portfolio",
+    short_name: "PM",
     description: "Experimental portfolio for a creative software engineer and web developer.",
     start_url: "/",
     display: "standalone",
