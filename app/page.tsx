@@ -82,7 +82,7 @@ const projects = [
     description: "تطبيق حب",
     tags: ["Backend", "APIs", "Social"],
     theme: "bavly",
-    href:"https://bavly1.vercel,app",
+    href:"https://bavly1.vercel.app",
   },
   {
     number: "04",
