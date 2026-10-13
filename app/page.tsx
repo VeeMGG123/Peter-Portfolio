@@ -33,36 +33,36 @@ const stack = [
 ];
 
 const specialties = [
-  { title: "تطوير Backend", value: "Node.js · Express.js" },
-  { title: "واجهات حديثة", value: "React · TypeScript" },
-  { title: "قواعد البيانات", value: "MongoDB · SQL" },
+  { title: "Backend Developer", value: "Node.js · Express.js" },
+  { title: "Frontend Developer", value: "React · TypeScript" },
+  { title: "Database", value: "MongoDB · SQL" },
 ];
 
 const skillGroups = [
   {
     icon: Server,
-    title: "تطوير الخوادم",
+    title: "Software Develop",
     tools: ["Node.js", "Express.js", "RESTful APIs"],
     description: "بناء خدمات وواجهات برمجية منظمة وقابلة للتوسع.",
   },
   {
     icon: Layers3,
-    title: "تطبيقات الويب",
+    title: "WebSites",
     tools: ["React.js", "TypeScript", "JavaScript ES6+"],
     description: "تطوير واجهات تفاعلية واضحة وسريعة الاستجابة.",
   },
   {
     icon: Workflow,
-    title: "البيانات والأدوات",
+    title: "Database Tools",
     tools: ["MongoDB", "PostgreSQL", "Low-Code"],
     description: "اختيار الأدوات المناسبة وربطها بتدفق عمل عملي.",
   },
 ];
 
 const workAreas = [
-  { number: "01", title: "واجهات API", detail: "تصميم endpoints واضحة وسهلة الدمج." },
-  { number: "02", title: "تكامل قواعد البيانات", detail: "تنظيم البيانات وربطها باحتياجات التطبيق." },
-  { number: "03", title: "تطبيقات ويب متكاملة", detail: "توصيل الواجهة بالخدمات وتجهيز تجربة متماسكة." },
+  { number: "01", title: "APIs", detail: "تصميم endpoints واضحة وسهلة الدمج." },
+  { number: "02", title: "DataBase", detail: "تنظيم البيانات وربطها باحتياجات التطبيق." },
+  { number: "03", title: "Full-Stack WebSites", detail: "توصيل الواجهة بالخدمات وتجهيز تجربة متماسكة." },
 ];
 
 const projects = [
@@ -77,19 +77,20 @@ const projects = [
   },
   {
     number: "03",
-    name: "SocialApp",
-    title: "تطبيق سوشيال ميديا (SocialApp)",
-    description: "تطبيق تواصل اجتماعي بواجهات API وتجربة تفاعلية.",
+    name: "LoveYou",
+    title: "Love WebSite",
+    description: "تطبيق حب",
     tags: ["Backend", "APIs", "Social"],
-    theme: "social",
+    theme: "bavly",
+    href:"https://bavly1.vercel,app",
   },
   {
     number: "04",
-    name: "EGO GYM",
-    title: "موقع جيم إيغو (EGO GYM)",
-    description: "موقع لعلامة رياضية يعرض خدمات النادي وتجربة الاشتراك.",
+    name: "test",
+    title: "test",
+    description: "test.",
     tags: ["Web Design", "Responsive"],
-    theme: "gym",
+    theme: "test",
   },
 ];
 
@@ -363,7 +364,7 @@ export default function Home() {
           <div className="education-icon"><GraduationCap size={21} /></div>
           <div className="education-copy">
             <span className="section-eyebrow">المسار الأكاديمي</span>
-            <h2>بكالوريوس نظم معلومات</h2>
+            <h2>ثانيه بكالوريا</h2>
             <p>اهتمام بقواعد البيانات، تحليل الأنظمة، وهندسة البرمجيات.</p>
           </div>
           <span className="education-year">2026</span>
@@ -398,7 +399,7 @@ export default function Home() {
         </section>
 
         <footer className="portfolio-footer">
-          <span>PETER MEDHAT</span><span>مطور برمجيات في مصر</span><span>© 2026</span>
+          <span>PETER MEDHAT</span><span>مطور برمجيات في بني سويف</span><span>© 2026</span>
         </footer>
       </div>
         <a className="floating-contact" href="#contact" aria-label="انتقل إلى التواصل">
