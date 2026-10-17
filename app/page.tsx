@@ -77,12 +77,12 @@ const projects = [
   },
   {
     number: "03",
-    name: "LoveYou",
-    title: "Love WebSite",
-    description: "تطبيق حب",
+    name: "test",
+    title: "test",
+    description: "test",
     tags: ["Backend", "APIs", "Social"],
-    theme: "bavly",
-    href:"https://bavly1.vercel.app",
+    theme: "",
+    href:"",
   },
   {
     number: "04",
